@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            animation: colorChange 5s infinite alternate;
+        }
+
+        @keyframes colorChange {
+            0% {
+                color: blue;
+            }
+            50%{
+                color: red;
+            }
+            100% {
+                color: yellow;
+            }
+        }
+        
+         
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            color: blue;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simple Webpage</h1>
+
+         
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+    </nav>
+
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>This is a simple webpage created using HTML and CSS to demonstrate semantic markup and styling.</p>
+        </section>
+        
+
+        <section>
+            <h2>Contact Us</h2>
+            <p>You can contact us via email at yyyyy@example.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Footer is Added Here</p>
+    </footer>
+</body>
+</html>
